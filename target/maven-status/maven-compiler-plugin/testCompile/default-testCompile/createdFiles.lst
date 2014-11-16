@@ -1,0 +1,4 @@
+FunctionalTests/Pages/HomePage.class
+FunctionalTests/Testcases/RunCukesTest.class
+FunctionalTests/Testcases/StepDef/AppTest.class
+FunctionalTests/Pages/StartUp.class

@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: FunctionalTests.Testcases.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 2, Skipped: 9, Time elapsed: 129.663 sec <<< FAILURE! - in FunctionalTests.Testcases.RunCukesTest
+When I go to "http://dubai.dubizzle.com/"(| http://dubai.dubizzle.com/ | Dubai hills | Oldest to Newest |)  Time elapsed: 0.01 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out awaiting response to command "get" after 32864 ms (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32.88 seconds
+Build info: version: '2.37.0', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-18 09:51:02'
+System info: host: 'pun-tawarea-m', ip: '192.168.43.183', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_25'
+Session ID: null
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{platform=MAC, javascriptEnabled=true, cssSelectorsEnabled=true, secureSsl=true, browserName=safari, takesScreenshot=true, version=7.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at FunctionalTests.Pages.HomePage.navigateTo(HomePage.java:48)
+	at FunctionalTests.Testcases.StepDef.AppTest.I_go_to(AppTest.java:29)
+	at ✽.When I go to "http://dubai.dubizzle.com/"(FunctionalTests/Testcases/Dubzzile.feature:6)
+
+| http://dubai.dubizzle.com/ | Dubai hills | Oldest to Newest |  Time elapsed: 0.011 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out awaiting response to command "get" after 32864 ms (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32.88 seconds
+Build info: version: '2.37.0', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-18 09:51:02'
+System info: host: 'pun-tawarea-m', ip: '192.168.43.183', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_25'
+Session ID: null
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{platform=MAC, javascriptEnabled=true, cssSelectorsEnabled=true, secureSsl=true, browserName=safari, takesScreenshot=true, version=7.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at FunctionalTests.Pages.HomePage.navigateTo(HomePage.java:48)
+	at FunctionalTests.Testcases.StepDef.AppTest.I_go_to(AppTest.java:29)
+	at ✽.When I go to "http://dubai.dubizzle.com/"(FunctionalTests/Testcases/Dubzzile.feature:6)
+
