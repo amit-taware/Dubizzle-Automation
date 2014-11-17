@@ -7,7 +7,7 @@ formatter.feature({
   "line": 1
 });
 formatter.before({
-  "duration": 34562667000,
+  "duration": 9517109000,
   "status": "passed"
 });
 formatter.scenario({
@@ -97,14 +97,14 @@ formatter.match({
   "location": "AppTest.I_go_to(String)"
 });
 formatter.result({
-  "duration": 2530000000,
+  "duration": 4755122000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_click_on_Apartment_Flat_for_Rent_link()"
 });
 formatter.result({
-  "duration": 149440000,
+  "duration": 1286956000,
   "status": "passed"
 });
 formatter.match({
@@ -117,7 +117,7 @@ formatter.match({
   "location": "AppTest.I_select_sort_by_Price_Lowest_to_Highest(String)"
 });
 formatter.result({
-  "duration": 6776901000,
+  "duration": 39440562000,
   "status": "passed"
 });
 formatter.match({
@@ -130,57 +130,57 @@ formatter.match({
   "location": "AppTest.I_select_Neighborhoods_as(String)"
 });
 formatter.result({
-  "duration": 5236652000,
+  "duration": 10543818000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_click_on_Advanced_Option_in_search_window()"
 });
 formatter.result({
-  "duration": 2093258000,
+  "duration": 3362002000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_select_minimum_bathrooms_as_two()"
 });
 formatter.result({
-  "duration": 111982000,
+  "duration": 3167115000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_click_on_Search_button()"
 });
 formatter.result({
-  "duration": 50244000,
+  "duration": 7047290000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.result_page_should_display_least_expensive_apartment_in_order_which_has_at_least_two_bathrooms()"
 });
 formatter.result({
-  "duration": 116000,
+  "duration": 90000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_go_to_last_item_from_result_set()"
 });
 formatter.result({
-  "duration": 342472000,
+  "duration": 2866708000,
   "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_verify_it_has_two_bathrooms()"
 });
 formatter.result({
-  "duration": 9431496000,
+  "duration": 6511328000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 187580000,
+  "duration": 2626219000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 32245714000,
+  "duration": 8458708000,
   "status": "passed"
 });
 formatter.scenario({
@@ -270,15 +270,15 @@ formatter.match({
   "location": "AppTest.I_go_to(String)"
 });
 formatter.result({
-  "duration": 32884369000,
-  "status": "failed",
-  "error_message": "org.openqa.selenium.TimeoutException: Timed out awaiting response to command \"get\" after 32864 ms (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 32.88 seconds\nBuild info: version: \u00272.37.0\u0027, revision: \u0027a7c61cbd68657e133ae96672cf995890bad2ee42\u0027, time: \u00272013-10-18 09:51:02\u0027\nSystem info: host: \u0027pun-tawarea-m\u0027, ip: \u0027192.168.43.183\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.9.5\u0027, java.version: \u00271.7.0_25\u0027\nSession ID: null\nDriver info: org.openqa.selenium.safari.SafariDriver\nCapabilities [{platform\u003dMAC, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, secureSsl\u003dtrue, browserName\u003dsafari, takesScreenshot\u003dtrue, version\u003d7.1}]\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:526)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\n\tat FunctionalTests.Pages.HomePage.navigateTo(HomePage.java:48)\n\tat FunctionalTests.Testcases.StepDef.AppTest.I_go_to(AppTest.java:29)\n\tat ✽.When I go to \"http://dubai.dubizzle.com/\"(FunctionalTests/Testcases/Dubzzile.feature:6)\n"
+  "duration": 3418101000,
+  "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_click_on_Apartment_Flat_for_Rent_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1269787000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -290,7 +290,8 @@ formatter.match({
   "location": "AppTest.I_select_sort_by_Price_Lowest_to_Highest(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 39767567000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -302,47 +303,53 @@ formatter.match({
   "location": "AppTest.I_select_Neighborhoods_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 11492575000,
+  "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_click_on_Advanced_Option_in_search_window()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3158033000,
+  "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_select_minimum_bathrooms_as_two()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3420726000,
+  "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_click_on_Search_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7532049000,
+  "status": "passed"
 });
 formatter.match({
   "location": "AppTest.result_page_should_display_least_expensive_apartment_in_order_which_has_at_least_two_bathrooms()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 80000,
+  "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_go_to_last_item_from_result_set()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1775187000,
+  "status": "passed"
 });
 formatter.match({
   "location": "AppTest.I_verify_it_has_two_bathrooms()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6589944000,
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 934942000,
+  "duration": 3339617000,
   "status": "passed"
 });
 });

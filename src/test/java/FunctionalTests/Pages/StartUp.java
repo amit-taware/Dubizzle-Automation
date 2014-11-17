@@ -121,8 +121,8 @@ public class StartUp {
 
 			// Choose the browser, version, and platform to test
 			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-			capabilities.setCapability("version", "5");
-			capabilities.setCapability("platform", Platform.XP);
+			capabilities.setCapability("version", "30");
+			capabilities.setCapability("platform", Platform.WIN8);
 			// Create the connection to Sauce Labs to run the tests
 			driver = new RemoteWebDriver(
 					new URL(
