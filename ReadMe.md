@@ -27,7 +27,7 @@ mvn clean test -Denvironment=uat -Dbrowser=chrome -Dcucumber.options="--tags @Re
 Test Report for Sauce Lab execution:
 
 Go to https://saucelabs.com/login
-Enter username : amittaware and Password: Amitwit@
+Enter username : amittaware and Password: 
 Sort by end.
 you can watch video of test by clicking link.
 
