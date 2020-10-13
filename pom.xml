@@ -15,7 +15,7 @@
 		<webdriver.version>2.37.0</webdriver.version>
 		<logback.version>1.0.7</logback.version>
 		<slf4j.version>1.7.0</slf4j.version>
-		<junit.version>4.11</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<cucumber-reporting.version>0.0.23</cucumber-reporting.version>
 		<cucumber-picocontainer.version>1.1.4</cucumber-picocontainer.version>
 		<cucumber-junit.version>1.1.4</cucumber-junit.version>
